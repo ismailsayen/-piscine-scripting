@@ -1,1 +1,1 @@
-find find-files-example -type f  | grep -i "z$" && find find-files-example  | grep -i "/a" 
+find find-files-example -type f -name "*z" && find find-files-example -name "a*"
