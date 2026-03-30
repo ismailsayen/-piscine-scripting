@@ -1,1 +1,2 @@
-find find-files-example -type f -name "*z" && find find-files-example -name "a*"
+find . -type f -name "*z" 
+find . -name "a*"
