@@ -1,1 +1,2 @@
-echo "Hello $USER!"
+myname="isayen"
+echo "Hello $myname!"
