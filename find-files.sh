@@ -1,2 +1,1 @@
-find . -type f -name "*z" 
-find . -name "a*"
+find . -type f -name "*z" -o -name "a*" 
