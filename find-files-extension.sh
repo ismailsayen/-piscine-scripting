@@ -1,1 +1,1 @@
-find . -type f -name "*.txt" | cut -d "/" -f 3 | cut -d "." -f 1
+find . -type f -name "*.txt" | rev |cut -d "/" -f 1 | rev | cut -d "." -f 1
