@@ -6,5 +6,3 @@ chmod 510 hard-perm/4
 chmod 460 hard-perm/5 hard-perm/6 
 chmod 510 hard-perm/7
 chmod 604 hard-perm/8 
-
-ls -l hard-perm
