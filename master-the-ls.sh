@@ -1,1 +1,1 @@
-ls -ltF |tr "\n" "," 
+ls -tm 
