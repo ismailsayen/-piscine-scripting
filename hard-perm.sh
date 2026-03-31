@@ -1,0 +1,10 @@
+chmod 401 hard-perm/0 hard-perm/A
+chmod 402 hard-perm/1 hard-perm/9
+chmod 604 hard-perm/2
+chmod 777 hard-perm/3
+chmod 510 hard-perm/4
+chmod 460 hard-perm/5 hard-perm/6 
+chmod 510 hard-perm/7
+chmod 604 hard-perm/8 
+
+ls -l hard-perm
