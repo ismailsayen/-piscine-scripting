@@ -1,1 +1,1 @@
-ls hard-perm -l --time-style=long-iso | sed  '1d'  | awk -F' ' '{print $1, $6, $7, $8}'
+ls  -l --time-style=long-iso | sed  '1d'  | awk -F' ' '{print $1, $6, $7, $8}'
