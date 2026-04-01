@@ -1,1 +1,1 @@
-git add . && git commit -m "$1" && git push origin main && git push github main
+git add . && git commit -m "$1" && git push origin main && git push https://github.com/ismailsayen/-piscine-scripting.git main
