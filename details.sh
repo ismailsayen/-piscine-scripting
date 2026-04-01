@@ -1,0 +1,1 @@
+truncate -s 1000 file.txt ; chmod 600 file.txt ; touch -am -t "202201010000.00" file.txt
