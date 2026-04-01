@@ -1,0 +1,1 @@
+alias custom-ls="ls -lGasS"
