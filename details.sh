@@ -1,1 +1,1 @@
-chmod 600 file.txt ; truncate -s 1000 file.txt; touch -am -t "202201010000.00" file.txt
+chmod 600 file1.txt ; truncate -s 1000 file1.txt; touch -am -t "202201010000.00" file1.txt
