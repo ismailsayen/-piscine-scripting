@@ -1,4 +1,4 @@
-cat << EOF> show-info.sh
+lecat << EOF> show-info.sh
 
 cat -e << inf
  "The current directory is: $PWD"
