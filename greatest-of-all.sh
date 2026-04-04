@@ -12,4 +12,4 @@ read -p "Enter a number: " n
 [[ "$n" -gt largest ]] && { largest=$n ;} 
 
 done
-echo The largest number is $largest
+echo The largest number is: $largest
