@@ -20,11 +20,11 @@ do
 
     [ "$n" -gt 100 ] && {  continue ; }
 
-    [[ $n -gt $secret_number ]] && { echo Go down ; }
+    [[ $n -gt $secret_number ]] && { echo "Go down" ; }
     
-    [[ $n -lt $secret_number ]] && { echo Go up ; }
+    [[ $n -lt $secret_number ]] && { echo "Go up" ; }
 
-    [[ $n -eq $secret_number ]] && { echo Congratulations, you found the number in $( expr 5 - $attemps + 1 ) moves! ; exit 0 ;}
+    [[ $n -eq $secret_number ]] && { echo "Congratulations, you found the number in $( expr 5 - $attemps + 1 ) moves!" ; exit 0 ;}
 
     attemps=$(expr $attemps - 1)
 done
