@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-if [[ $# > 1 ]] || [[ "$1" < 1 || "$1" > 100 ]] ; 
+if [[ $# > 1 ]] || [[ "$1" -lt 1 || "$1" -gt 100 ]] ; 
 then
     echo Error: wrong argument ; exit 1 ;
 fi
