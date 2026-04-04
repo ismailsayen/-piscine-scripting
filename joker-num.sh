@@ -18,7 +18,7 @@ do
 
     [[ ! (($n =~ ^[0-9]+$))  ]] && {  continue ; }
 
-    [ "$n" -gt 100 ] && {  continue ; }
+    [[ "$n" -lt 1 || "$n" -gt 100 ]] && {  continue ; }
 
     [[ $n -gt $secret_number ]] && { echo "Go down" ; }
     
