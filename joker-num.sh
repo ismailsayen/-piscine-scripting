@@ -12,7 +12,7 @@ attemps=5
 
 while [ $attemps -gt 0 ]
 do
-    echo "Enter your guess ($attemps tries left) :"
+    echo "Enter your guess ($attemps tries left):"
     read n
 
 
