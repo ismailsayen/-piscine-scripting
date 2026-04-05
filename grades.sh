@@ -15,7 +15,6 @@ do
     arrr+=("$name: You had a poor performance!")
 done
 
-# echo ${arrr[0]}
 
 for i in ${!arrr[@]}
 do 
