@@ -1,6 +1,7 @@
-import numerical_operations_the_return
+import shopping
 
-print(numerical_operations_the_return.modulo(10, 3))
-print(numerical_operations_the_return.divide(10, 3))
-print(numerical_operations_the_return.divide(10, 0))
-print(numerical_operations_the_return.integer_division(10, 3))
+list_with_apple = ['tomatoes', 'pastas', 'apple', 'salt']
+list_without_apple = ['tomatoes', 'pastas', 'salt']
+
+print(shopping.remember_the_apple(list_with_apple))
+print(shopping.remember_the_apple(list_without_apple))
