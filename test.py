@@ -1,4 +1,5 @@
-import concat_string
-string1 = "Hello"
-string2 = "World"
-print(concat_string.concat(string1, string2))
+import punishment
+
+print(punishment.do_punishment('   The first half   ', '   and the second  ', 4), end='')
+print(punishment.do_punishment('Will not', 'show', 0), end='')
+print(punishment.do_punishment('', '', 3), end='')
