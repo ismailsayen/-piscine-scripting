@@ -1,5 +1,6 @@
-import punishment
+import numerical_operations_the_return
 
-print(punishment.do_punishment('   The first half   ', '   and the second  ', 4), end='')
-print(punishment.do_punishment('Will not', 'show', 0), end='')
-print(punishment.do_punishment('', '', 3), end='')
+print(numerical_operations_the_return.modulo(10, 3))
+print(numerical_operations_the_return.divide(10, 3))
+print(numerical_operations_the_return.divide(10, 0))
+print(numerical_operations_the_return.integer_division(10, 3))
