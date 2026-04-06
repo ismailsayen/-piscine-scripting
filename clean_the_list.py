@@ -5,6 +5,6 @@ def clean_list(strs):
         strs.append("milk")
     
     for i in range(0, len(strs)):
-        strs[i]= str(1+i) + "/ " + strs[i].strip().title()
+        strs[i]= str(1+i) + "/ " + strs[i].strip().capitalize()
     
     return strs
