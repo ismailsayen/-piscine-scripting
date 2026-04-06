@@ -1,7 +1,4 @@
-import numerical_operations
-
-print(numerical_operations.add(2, 2))
-print(numerical_operations.subtract(10, 5))
-print(numerical_operations.multiply(3, 4))
-print(numerical_operations.power(3, 3))
-print(numerical_operations.square_root(3))
+import concat_string
+string1 = "Hello"
+string2 = "World"
+print(concat_string.concat(string1, string2))
