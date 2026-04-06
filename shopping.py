@@ -1,5 +1,5 @@
 def remember_the_apple(shopping_list):
-    if shopping_list.count()==0:
+    if len(shopping_list)==0:
         return []
     
     if "apple" in shopping_list:
