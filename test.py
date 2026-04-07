@@ -1,7 +1,9 @@
-import custom_calendar
+from merge_two import merge_two
 
-print(custom_calendar.day_from_number(2))
-print(custom_calendar.day_from_number(1))
-print(custom_calendar.day_from_number(1000))
-print(custom_calendar.day_to_number('Sunday'))
-print(custom_calendar.day_to_number('invalid day'))
+first = {
+    "Bob": 36,
+    "Louise": 23,
+    "Lea": 34
+}
+
+print(merge_two(first))
