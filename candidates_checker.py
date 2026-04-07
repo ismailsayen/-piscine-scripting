@@ -19,6 +19,7 @@ if __name__=='__main__':
             res.append(f'{name} is not eligible (over the legal age)')
         else:
             res.append(f'{name} is eligible')
-    print("\n".join(res))
+    if len(res)>0:
+        print("\n".join(res))
             
         
