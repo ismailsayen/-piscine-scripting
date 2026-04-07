@@ -1,5 +1,3 @@
-import string_processing
+import read_file
 
-if __name__ == '__main__':
-    my_sentence = "      je Ne pEnse pas   _-??   qu'il y ait de bonnes ou de mauvaises SITUATIONS."
-    print(string_processing.tokenize(my_sentence))
+print(read_file.get_recipes('recipes_data.json'))
