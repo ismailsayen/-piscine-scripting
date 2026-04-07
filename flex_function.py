@@ -1,4 +1,4 @@
-def create_person(first_name,last_name,age=34,gender="male",size=1.83,job="taxidermist"):
+def create_person(first_name,last_name,age=None,gender=None,size=1.83,job="taxidermist"):
     
     print(first_name,"-",last_name,"-",age,"-",gender,"-",size,"-",job)
     thisdict = {
