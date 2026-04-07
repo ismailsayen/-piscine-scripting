@@ -11,12 +11,12 @@ def day_from_number(dn):
     return dict.get(str(dn))
 def day_to_number(dn):
     dict={
-         "Monday":      "1" ,
-         "Tuesday":      "2" ,
-         "Wednesday":      "3" ,
-         "Thursday":      "4" ,
-         "Friday":      "5" ,
-         "Saturday":      "6" ,
-         "Sunday":      "7" ,
+         "Monday":      1,
+         "Tuesday":      2 ,
+         "Wednesday":      3 ,
+         "Thursday":      4 ,
+         "Friday":      5 ,
+         "Saturday":      6 ,
+         "Sunday":      7 ,
         }
     return dict.get(str(dn))
