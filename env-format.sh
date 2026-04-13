@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo $PWD
+$PWD
 
 printenv|awk -F'=' '{print $2}' | grep H
