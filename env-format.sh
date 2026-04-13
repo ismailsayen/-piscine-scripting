@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo PWD
-printenv|awk -F'=' '{print $2}' | grep H
+printenv PWD
+printenv | awk -F'=' '{print $2}' | grep H
